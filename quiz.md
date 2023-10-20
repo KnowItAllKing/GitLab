@@ -4,6 +4,10 @@ This is only a "quiz" in the loosest sense that it's asking questions whose
 answers will be part of your grade. Please use *any resources you want*, as
 long as you list those resources (e.g. peers, websites, etc.)
 
+Resources used:
+https://www.freecodecamp.org/news/git-squash-commits/
+
+
 ## Navigating logs
 
 1. What is the SHA for the last commit made by Prof. Xanda on the branch
@@ -11,11 +15,20 @@ xanda_0000_movie_processing?
 (For this and future questions, the first 5 characters is plenty - neither
 Git nor I need the whole SHA.)
 
+9b257
+
 2. What is the SHA for the last commit associated with line 9 of this file?
+
+d1d83
 
 3. What did line 12 of this file say in commit d1d83?
 
+"2. I should really finish writing this."
+
 4. What changed between commit e474c and 82045?
+process_movie_data.py:
+Line 18: `gross_sort = lambda x : int(x["Gross"])`
+Line 20: `top_five = rows[:-6:-1]`
 
 ## Predicting merges
 
